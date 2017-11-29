@@ -11,7 +11,7 @@ import bancoinfo.model.Banco;
 import bancoinfo.repository.BancoRepository;
 
 /**
-*
+*Métodos usados por BancoController para persistir os dados.
 * @author gilvanveras
 */
 @Service

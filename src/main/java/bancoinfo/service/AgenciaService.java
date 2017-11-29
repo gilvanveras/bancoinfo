@@ -11,7 +11,7 @@ import bancoinfo.model.Agencia;
 import bancoinfo.repository.AgenciaRepository;
 
 /**
-*
+*Métodos usados por AgenciaController para persistir os dados.
 * @author gilvanveras
 */
 @Service

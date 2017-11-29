@@ -14,7 +14,7 @@ import bancoinfo.model.enuns.TipoOperacao;
 import bancoinfo.repository.ContaRepository;
 
 /**
-*
+*Métodos usados por ContaController para persistir os dados.
 * @author gilvanveras
 */
 @Service

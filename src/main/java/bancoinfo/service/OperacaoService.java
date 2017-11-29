@@ -11,7 +11,7 @@ import bancoinfo.model.Operacao;
 import bancoinfo.repository.OperacaoRepository;
 
 /**
-*
+*Métodos usados por OperacaoController para persistir os dados.
 * @author gilvanveras
 */
 @Service

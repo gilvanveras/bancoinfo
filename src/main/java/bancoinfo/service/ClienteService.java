@@ -11,7 +11,7 @@ import bancoinfo.model.Cliente;
 import bancoinfo.repository.ClienteRepository;
 
 /**
-*
+*Métodos usados por ClienteController para persistir os dados.
 * @author gilvanveras
 */
 @Service
