@@ -15,7 +15,7 @@ import bancoinfo.model.Conta;
 import bancoinfo.service.ContaService;
 
 /**
-*
+*Responsável por executar diretamente todas as ações requisitadas por conta.jsp.
 * @author gilvanveras
 */
 @Controller

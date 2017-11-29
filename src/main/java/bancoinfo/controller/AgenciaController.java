@@ -17,7 +17,7 @@ import bancoinfo.model.Agencia;
 import bancoinfo.service.AgenciaService;
 
 /**
-*
+*Responsável por executar diretamente todas as ações requisitadas por agencia.jsp. 
 * @author gilvanveras
 */
 @Controller

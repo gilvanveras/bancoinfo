@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
-*
+*Responsável por executar a página inicial da aplicação.
 * @author gilvanveras
 */
 @Controller

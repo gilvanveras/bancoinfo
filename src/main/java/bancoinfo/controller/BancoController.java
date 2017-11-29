@@ -17,7 +17,7 @@ import bancoinfo.model.Banco;
 import bancoinfo.service.BancoService;
 
 /**
- *
+ *Responsável por executar diretamente todas as ações requisitadas por banco.jsp.
  * @author gilvanveras
  */
 @Controller
