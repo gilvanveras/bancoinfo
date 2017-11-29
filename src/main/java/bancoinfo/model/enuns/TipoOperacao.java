@@ -1,7 +1,7 @@
 package bancoinfo.model.enuns;
 
 /**
-*
+*Criação de enum para definir tipo de operação realizada na classe operacao.
 * @author gilvanveras
 */
 public enum TipoOperacao {
