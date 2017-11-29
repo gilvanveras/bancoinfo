@@ -53,7 +53,7 @@
 		      </li>
 		      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Operações <span class="caret"></span></a>
 		        <ul class="dropdown-menu">
-		          <li><a href="/operacoes/">Listar operações</a></li>
+		          <li><a href="/operacoes/">Extrato</a></li>
 		          <li><a href="/operacoes/cadastrar/">Cadastrar operação</a></li>
 		        </ul>
 		      </li>

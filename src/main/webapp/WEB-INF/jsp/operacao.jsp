@@ -44,13 +44,15 @@
 		</c:when>
 		<c:when test="${mode == 'OPERACOES'}">
 			<div class="container text-center" id="operacoesDiv">
-				<h3>Minhas Operacoes</h3>
+				<h3>Extrato</h3>
 				<hr>
 				<div class="table-responsive">
 					<table class="table table-striped table-bordered text-left">
 						<thead>
 							<tr>
 								<th>Id</th>
+								<th>Cliente</th>
+								<th>Conta</th>
 								<th>Data</th>
 								<th>Tipo da Operação</th>
 								<th>Valor</th>
@@ -61,7 +63,9 @@
 						<tbody>
 							<c:forEach var="operacao" items="${operacoes}">
 								<tr>
-									<td>${operacao.id}</td>						
+									<td>${operacao.id}</td>	
+									<td>${operacao.conta.cliente.nome}</td>
+									<td>${operacao.conta.numero}</td>
 									<td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${operacao.data}" /></td>
 									<td>${operacao.tipo}</td>
 									<td>${operacao.valor}</td>									
