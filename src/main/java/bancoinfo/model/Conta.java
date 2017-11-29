@@ -13,7 +13,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 /**
- *
+ *Declaração de variáveis e mapeamento JPA.
  * @author gilvanveras
  */
 @Entity

@@ -19,7 +19,7 @@ import javax.persistence.TemporalType;
 import bancoinfo.model.enuns.TipoOperacao;
 
 /**
- *
+ *Declaração de variáveis e mapeamento JPA.
  * @author gilvanveras
  */
 @Entity

@@ -15,7 +15,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 /**
- *
+ *Declaração de variáveis e mapeamento JPA.
  * @author gilvanveras
  */
 @Entity(name="banco")
